@@ -2,18 +2,6 @@
     width: 75px;
     height: 100px;
 }
-.div-arrange img{
-    width: 200px;
-}
-
-.clickDisplayImg{
-    width: 150px; 
-}
-#displayMeal{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-}
 .ShowAll{
     width: 250px;
     border-radius: 10px;
@@ -28,6 +16,19 @@
     padding: 10px;
     text-align: center;
 }
+
+.clickDisplayImg{
+    width: 150px; 
+}
+.wholeItemDivImg{
+    width: 150px; 
+}
+#displayMeal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
 .listStyle{
     list-style-type: none;
 }

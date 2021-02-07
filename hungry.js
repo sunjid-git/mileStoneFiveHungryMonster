@@ -17,7 +17,6 @@ const mealCard = meal =>{
     const mealItems = document.getElementById('displayMeal');
     searchMealItem.forEach(searchMealItem => {
         const foodDiv = document.createElement('div');
-        foodDiv.className = 'div-arrange';
 
         const divInfo =`
             <div class="wholeItemDiv" onclick="mealDescription(${searchMealItem.idMeal})"> 
