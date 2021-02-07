@@ -1,6 +1,6 @@
 
 const mealName = mealItems => {
-    const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${mealItems}`;
+    const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=chicken${mealItems}`;
     fetch(url)
     .then(res => res.json())
     .then(data => mealCard(data))
